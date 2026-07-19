@@ -18,7 +18,7 @@ class AI implements translator,speaker{
 public class q6 {
     public static void main(String[] args) {
         AI obj =new AI();
-        obj.translate("I AM A STUDENT", "FRENCH");
-        obj.speak("Je suis étudiante");
+        obj.translate("good morning", "FRENCH");
+        obj.speak("bonjour");
     }
 }
